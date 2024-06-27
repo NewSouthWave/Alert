@@ -13,6 +13,9 @@
 		3D4DB26D2C2D971F001BF2D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4DB26B2C2D971F001BF2D0 /* Main.storyboard */; };
 		3D4DB26F2C2D9721001BF2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4DB26E2C2D9721001BF2D0 /* Assets.xcassets */; };
 		3D4DB2722C2D9721001BF2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4DB2702C2D9721001BF2D0 /* LaunchScreen.storyboard */; };
+		3D4DB27C2C2D978D001BF2D0 /* lamp-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4DB2792C2D978D001BF2D0 /* lamp-on.png */; };
+		3D4DB27D2C2D978D001BF2D0 /* lamp-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4DB27A2C2D978D001BF2D0 /* lamp-off.png */; };
+		3D4DB27E2C2D978D001BF2D0 /* lamp-remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4DB27B2C2D978D001BF2D0 /* lamp-remove.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3D4DB26E2C2D9721001BF2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D4DB2712C2D9721001BF2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D4DB2732C2D9721001BF2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4DB2792C2D978D001BF2D0 /* lamp-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-on.png"; sourceTree = "<group>"; };
+		3D4DB27A2C2D978D001BF2D0 /* lamp-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-off.png"; sourceTree = "<group>"; };
+		3D4DB27B2C2D978D001BF2D0 /* lamp-remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-remove.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		3D4DB2642C2D971F001BF2D0 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				3D4DB27A2C2D978D001BF2D0 /* lamp-off.png */,
+				3D4DB2792C2D978D001BF2D0 /* lamp-on.png */,
+				3D4DB27B2C2D978D001BF2D0 /* lamp-remove.png */,
 				3D4DB2652C2D971F001BF2D0 /* AppDelegate.swift */,
 				3D4DB2672C2D971F001BF2D0 /* SceneDelegate.swift */,
 				3D4DB2692C2D971F001BF2D0 /* ViewController.swift */,
@@ -125,8 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D4DB27D2C2D978D001BF2D0 /* lamp-off.png in Resources */,
+				3D4DB27E2C2D978D001BF2D0 /* lamp-remove.png in Resources */,
 				3D4DB2722C2D9721001BF2D0 /* LaunchScreen.storyboard in Resources */,
 				3D4DB26F2C2D9721001BF2D0 /* Assets.xcassets in Resources */,
+				3D4DB27C2C2D978D001BF2D0 /* lamp-on.png in Resources */,
 				3D4DB26D2C2D971F001BF2D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,8 +304,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +330,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
