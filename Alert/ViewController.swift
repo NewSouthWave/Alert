@@ -89,13 +89,13 @@ class ViewController: UIViewController {
             // off 하는 옵션
             let offAction = UIAlertAction(title: "No, turn off", style: UIAlertAction.Style.default, handler:{
                 ACTION in self.imgView.image = self.imgOff
-                self.isLampOn = true
+                self.isLampOn = false
             })
             
             // on 하는 옵션
             let onAction = UIAlertAction(title: "No, turn on", style: UIAlertAction.Style.default, handler:{
                 ACTION in self.imgView.image = self.imgOn
-                self.isLampOn = false
+                self.isLampOn = true
             })
             
             // remove 하는 옵션
